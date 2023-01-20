@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #3e85a7;
+    background: #e6e6e6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,19 +19,12 @@ body {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 100px;
+    min-height: 1000px;
     background: #fff;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-   box-shadow: 0 35px 55px rgba(0,0,0,0,1); 
 }
-.container .left_Side{
+.container .contact_profile{
     position: relative;
     background: #1d4355;
     padding: 40px;
-}
-.container .right_Side{
-    position: relative;
-    background: #fff;
-    padding: 40px;
+    margin-right: 700px;
 }
